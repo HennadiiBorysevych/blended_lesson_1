@@ -14,6 +14,8 @@ color: var(--primary-text-color);
 font-size: 18px;
 background-color: var(--primary-background-color);
 font-style: normal;
+margin: 0 auto;
+
 }
 h1,
 h2,
@@ -24,15 +26,32 @@ h6{
     margin: 0;
     padding: 0;
 }
-ul {
+ul,
+p {
     margin: 0;
     padding: 0;
 }
+.section{
+    max-width: 1360px;
+    margin: 0 auto;
+}
 .container{
-    width: 1360px;
+    width: 1260px;
     padding-left: 25px;
     padding-right: 25px;
     margin: 0 auto;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .list{
     list-style: none;
@@ -40,16 +59,99 @@ ul {
 .link{
     text-decoration: none;
 }
+.flex-box{
+    display: flex;
+}
 .logo{
     font-family: inherit;
     font-weight: inherit;
     font-size: 35px;
     line-height: 1.2;
     color: var(--primary-text-color);
+
 }
 .logo-accent{
     color: var(--accent-color);
 }
 .site-links{
     list-style: none;
+    display: flex;
+    gap: 38px;
+    align-items: center;
+
+}
+.site-link{
+    font-family: inherit;
+    font-size: inherit;
+    color: var(--primary-text-color);
+
+    padding: 21px 0;
+}
+.site-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0;
+}
+.hero{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-pic{
+background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/hero-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-title{
+    color: #E9E9E9;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 1.2;
+    text-align: center;
+    
+    width: 490px;
+    margin-bottom: 25px;
+}
+.hero-subtitle{
+    color: #E9E9E9;
+    font-size: 22px;
+    line-height: 1.67;
+    text-align: center;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 29px ;
+}
+.main-button{
+    display: block;
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+.services{
+    color: var(--secondary-text-color);
+    list-style: none;
+    text-align: center;
+    
+    display: flex;
+    gap: 71px;
+}
+.services-subtitle{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+
+    margin-bottom: 16px;
 }
