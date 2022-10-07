@@ -127,14 +127,17 @@ p {
     margin-bottom: 29px ;
 }
 .main-button{
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-width: 165px;
     background-color: var(--accent-color);
     color: var(--primary-text-color);
     font-style: inherit;
     font-weight: inherit;
     font-size: 18px;
     line-height: 1.56;
-    text-align: center;
+    
     
     padding: 10px 30px;
     border-radius: 5px;
@@ -147,11 +150,75 @@ p {
     
     display: flex;
     gap: 71px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .services-subtitle{
     font-weight: 400;
     font-size: 20px;
     line-height: 1.65;
+}
+.icon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    margin-bottom: 16px;
+    width: 67px;
+    height: 67px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+
+}
+.service-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.solution{
+    background-color: var(--accent-color);
+
+    padding-top:84px ;
+    padding-bottom: 96px;
+    padding-left:30px ;
+    padding-right: 44px;
+}
+.solution-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+
+    margin-bottom: 5px;
+}
+.solution-subtitle{
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+
+    margin-bottom: 26px;
+
+}
+.solition-text{
+    width: 600px;
+    line-height: 1.56;
+
+    margin-bottom: 17px;
+}
+.solution-link{
+    color: var(--primary-text-color);
+    font-weight: inherit;
+    font-size: 18px;
+    line-height: 1.56;
+    text-decoration: none;
+    max-width:167px ;
+    height: 50px;
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 42px;
+    padding-right: 27px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
 }
