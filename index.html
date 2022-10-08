@@ -216,64 +216,114 @@
         />
       </div>
     </article>
-    <section>
-      <h2>Who we are</h2>
-      <h3>Our Professional Team</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-        sapiente!
-      </p>
-      <ul>
-        <li>
-          <img
-            src="./images/team-member.jpg"
-            alt="President"
-            width="420"
-            height="280"
-          />
-          <h3>John Doe</h3>
-          <p>President</p>
-        </li>
-        <li>
-          <img
-            src="./images/team-member2.jpg"
-            alt="Vice President"
-            width="420"
-            height="280"
-          />
-          <h3>Jane Doe</h3>
-          <p>Vice President</p>
-        </li>
-        <li>
-          <img
-            src="./images/team-member3.jpg"
-            alt="Marketing Head"
-            width="420"
-            height="280"
-          />
-          <h3>Steve Smith</h3>
-          <p>Marketing Head</p>
-        </li>
-      </ul>
+    <section class="section">
+      <div class="container">
+        <div class="cases">
+          <h2 class="cases-title">Who we are</h2>
+          <h3 class="cases-subtitle">Our Professional Team</h3>
+          <p class="cases-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+        </div>
+        <ul class="team">
+          <li>
+            <img
+              src="./images/team-member.jpg"
+              alt="President"
+              width="420"
+              height="280"
+            />
+            <div class="team-info">
+              <h3 class="team-name">John Doe</h3>
+              <p class="position">President</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="./images/team-member2.jpg"
+              alt="Vice President"
+              width="420"
+              height="280"
+            />
+            <div class="team-info">
+              <h3 class="team-name">Jane Doe</h3>
+              <p class="position">Vice President</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="./images/team-member3.jpg"
+              alt="Marketing Head"
+              width="420"
+              height="280"
+            />
+            <div class="team-info">
+              <h3 class="team-name">Steve Smith</h3>
+              <p class="position">Marketing Head</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section>
-      <img
-        src="./images/employee.jpg"
-        alt="employee is looking at the laptop"
-      />
-      <h2>Request Callback</h2>
-      <input type="text" placeholder="Enter your name" size="620" />
-      <input type="text" placeholder="Enter email*" size="620" />
-      <button type="submit">Send</button>
+    <section class="section">
+      <div class="feedback">
+        <img
+          src="./images/employee.jpg"
+          alt="employee is looking at the laptop"
+        />
+        <div class="call-form">
+          <h2 class="request-title">Request Callback</h2>
+          <input
+            class="form"
+            type="text"
+            placeholder="Enter your name"
+            size=""
+          />
+          <input
+            class="form email"
+            type="text"
+            placeholder="Enter email*"
+            size=""
+          />
+          <button class="send-btn" type="submit">Send</button>
+        </div>
+      </div>
     </section>
-    <footer>
-      <ul>
-        <li><a href="./images/.svg"></a></li>
-        <li><a href="./images/.svg"></a></li>
-        <li><a href="./images/.svg"></a></li>
-        <li><a href="./images/.svg"></a></li>
-      </ul>
-      <p>Copyright &copy; 2021 - FinanceLedger</p>
+    <footer class="footer">
+      <div class="links">
+        <ul class="social-media">
+          <li>
+            <a href="#">
+              <svg class="" width="40" height="30">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><svg class="" width="40" height="30">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><svg class="" width="40" height="30">
+                <use href="./images/symbol-defs.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><svg class="" width="40" height="30">
+                <use href="./images/symbol-defs.svg#icon-linkend"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p>Copyright &copy; 2021 - FinanceLedger</p>
+      </div>
     </footer>
   </body>
 </html>
