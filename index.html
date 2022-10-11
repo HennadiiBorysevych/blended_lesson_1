@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finance Ledger</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div class="bg-pic">
@@ -94,7 +98,7 @@
     </section>
 
     <section class="section">
-      <div class="container flex-box">
+      <div class="flex-box">
         <img src="./images/team.jpg" alt="our team" width="680" height="460" />
         <div class="solution">
           <h2 class="solution-title">What you are looking for</h2>
@@ -228,36 +232,132 @@
         </div>
         <ul class="team">
           <li>
-            <img
-              src="./images/team-member.jpg"
-              alt="President"
-              width="420"
-              height="280"
-            />
+            <div class="overlay">
+              <img
+                src="./images/team-member.jpg"
+                alt="President"
+                width="420"
+                height="280"
+              />
+              <ul class="member-link">
+                <li>
+                  <a href="#" class="media-icon">
+                    <svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="media-icon"
+                    ><svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="media-icon"
+                    ><svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="media-icon"
+                    ><svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-linkend"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <div class="team-info">
               <h3 class="team-name">John Doe</h3>
               <p class="position">President</p>
             </div>
           </li>
           <li>
-            <img
-              src="./images/team-member2.jpg"
-              alt="Vice President"
-              width="420"
-              height="280"
-            />
+            <div class="overlay">
+              <img
+                src="./images/team-member2.jpg"
+                alt="Vice President"
+                width="420"
+                height="280"
+              />
+              <ul class="member-link">
+                <li>
+                  <a href="#" class="media-icon">
+                    <svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="media-icon"
+                    ><svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="media-icon"
+                    ><svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="media-icon"
+                    ><svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-linkend"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <div class="team-info">
               <h3 class="team-name">Jane Doe</h3>
               <p class="position">Vice President</p>
             </div>
           </li>
           <li>
-            <img
-              src="./images/team-member3.jpg"
-              alt="Marketing Head"
-              width="420"
-              height="280"
-            />
+            <div class="overlay">
+              <img
+                src="./images/team-member3.jpg"
+                alt="Marketing Head"
+                width="420"
+                height="280"
+              />
+              <ul class="member-link">
+                <li>
+                  <a href="#" class="media-icon">
+                    <svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="media-icon"
+                    ><svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="media-icon"
+                    ><svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="media-icon"
+                    ><svg class="" width="40" height="30">
+                      <use href="./images/symbol-defs.svg#icon-linkend"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <div class="team-info">
               <h3 class="team-name">Steve Smith</h3>
               <p class="position">Marketing Head</p>
@@ -274,18 +374,8 @@
         />
         <div class="call-form">
           <h2 class="request-title">Request Callback</h2>
-          <input
-            class="form"
-            type="text"
-            placeholder="Enter your name"
-            size=""
-          />
-          <input
-            class="form email"
-            type="text"
-            placeholder="Enter email*"
-            size=""
-          />
+          <input class="form" type="text" placeholder="Enter your name" />
+          <input class="form email" type="text" placeholder="Enter email*" />
           <button class="send-btn" type="submit">Send</button>
         </div>
       </div>
@@ -294,28 +384,28 @@
       <div class="links">
         <ul class="social-media">
           <li>
-            <a href="#">
+            <a href="#" class="media-icon">
               <svg class="" width="40" height="30">
                 <use href="./images/symbol-defs.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="#"
+            <a href="#" class="media-icon"
               ><svg class="" width="40" height="30">
                 <use href="./images/symbol-defs.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="#"
+            <a href="#" class="media-icon"
               ><svg class="" width="40" height="30">
                 <use href="./images/symbol-defs.svg#icon-youtube"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="#"
+            <a href="#" class="media-icon"
               ><svg class="" width="40" height="30">
                 <use href="./images/symbol-defs.svg#icon-linkend"></use>
               </svg>
