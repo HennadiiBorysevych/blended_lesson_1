@@ -365,6 +365,7 @@ p {
     justify-content: center;
 }
 .call-form{
+    width: 680px;
     display: flex;
     flex-direction: column;
     background-color: #F4F4F4;
@@ -393,6 +394,11 @@ input[placeholder] {
     font-size: 18px;
     line-height: 1.56;
     color: #808080;
+
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    
 }
 .email{
     margin-bottom: 60px;
