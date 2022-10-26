@@ -41,7 +41,7 @@
       <div class="container hero">
         <h1 class="hero-title">The Sky Is The Limit</h1>
         <p class="hero-subtitle">We provide world class financial ssistance</p>
-        <button class="main-button">
+        <button class="main-button" data-modal-open>
           <svg class="" width="9" height="18">
             <use href="./images/symbol-defs.svg#icon-button"></use>
           </svg>
@@ -198,15 +198,17 @@
     <article>
       <div class="flex-box">
         <div class="article">
-          <time datetime="2020-04-16" class="time">April 16 2020</time>
-          <h2 class="article-title">Blog Post One</h2>
-          <p class="article-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
-            harum illum dolore explicabo ab dolores itaque rerum temporibus
-            doloribus iste maiores deleniti?
-          </p>
-          <a href="#" class="article-link">Read Our Blog</a>
+          <div class="article__content">
+            <time datetime="2020-04-16" class="time">April 16 2020</time>
+            <h2 class="article-title">Blog Post One</h2>
+            <p class="article-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <a href="#" class="article-link">Read Our Blog</a>
+          </div>
         </div>
         <img
           src="./images/photo2.jpg"
@@ -411,5 +413,53 @@
         <p>Copyright &copy; 2021 - FinanceLedger</p>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button class="modal-window__button" type="button" data-modal-close>
+          <svg
+            width="13"
+            height="13"
+            viewBox="0 0 11 11"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+            />
+          </svg>
+        </button>
+        <form class="modal-window__form">
+          <h2 class="modal-window__title">Call Back</h2>
+          <label class="modal-window__label">
+            Name
+            <input class="modal-window__input" type="text" name="name" />
+          </label>
+          <label class="modal-window__label">
+            Email
+            <input class="modal-window__input" type="email" name="email" />
+          </label>
+          <label class="modal-window__label">
+            Phone Number
+            <input class="modal-window__input" type="tel" name="phone-number" />
+          </label>
+          <label class="modal-window__label">
+            City
+            <input
+              class="modal-window__input"
+              type="text"
+              name="address"
+            /> </label
+          ><label class="modal-window__label">
+            Comment
+            <textarea
+              class="modal-window__comment"
+              name="comment"
+              rows="5"
+            ></textarea>
+          </label>
+          <button class="modal-window__send" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
