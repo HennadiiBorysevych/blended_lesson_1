@@ -1,0 +1,17 @@
+@import './utils/variables';
+@import './utils/breakpoints';
+@import './utils/visually-hidden';
+
+@import './base/common';
+
+@import './components/container';
+@import './components/modalWindow';
+
+@import './layouts/header';
+@import './layouts/mainSection';
+@import './layouts/services';
+@import './layouts/cases';
+@import './layouts/article';
+@import './layouts/feedback';
+@import './layouts/solution';
+@import './layouts/footer';

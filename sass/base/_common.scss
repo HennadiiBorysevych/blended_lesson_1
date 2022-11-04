@@ -1,0 +1,43 @@
+body {
+
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    color: var(--primary-text-color);
+    font-size: 18px;
+    background-color: var(--primary-background-color);
+    font-style: normal;
+    margin: 0 auto;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+// img {
+//     display: block;
+//     height: auto;
+//     width: 100%;
+// }
+a  {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.flex-box {
+    display: flex;
+    justify-content: center;
+}

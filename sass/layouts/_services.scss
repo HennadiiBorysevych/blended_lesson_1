@@ -1,0 +1,40 @@
+.gb-color {
+    background-color: #F4F4F4;
+}
+
+.services {
+    color: var(--secondary-text-color);
+    list-style: none;
+    text-align: center;
+
+    display: flex;
+    gap: 71px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.services-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+}
+
+.icon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 67px;
+    height: 67px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

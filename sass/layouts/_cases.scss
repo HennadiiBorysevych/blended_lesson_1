@@ -1,0 +1,80 @@
+.cases {
+    background-color: var(--primary-background-color);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 39px;
+}
+
+.cases-title {
+    font-weight: inherit;
+    font-size: 20px;
+    line-height: 1.65;
+
+    color: var(--secondary-text-color);
+
+    margin-bottom: 15px;
+}
+
+.cases-subtitle {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+
+    color: var(--secondary-text-color);
+
+    margin-bottom: 34px;
+}
+
+.cases-text {
+    font-weight: inherit;
+    font-size: 18px;
+    line-height: 1.56;
+
+    color: var(--secondary-text-color);
+
+}
+
+.cases-items {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+
+    padding-bottom: 48px;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    list-style: none;
+
+}
+
+.team-name {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.27;
+    text-align: center;
+    color: var(--secondary-text-color);
+
+    margin-bottom: 14px;
+}
+
+.position {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.team-info {
+    padding-top: 13px;
+    padding-bottom: 57px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+}
